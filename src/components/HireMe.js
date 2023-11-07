@@ -1,4 +1,4 @@
-"use client";
+
 import React from "react";
 import { CircularText } from "./icons";
 import Link from "next/link";

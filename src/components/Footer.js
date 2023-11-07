@@ -1,4 +1,3 @@
-'use client';
 import React from "react";
 import Layout from "./Layout";
 import Link from "next/link";
@@ -12,7 +11,10 @@ const Footer = () => {
           <span>{new Date().getFullYear()}&copy; All Rights Reserved.</span>
           <div className="flex-items-center lg:py-2">
             Build With
-            <span className="text-primary text-2xl px-1 dark:text-primaryDark ">&#9825;</span>by&nbsp;
+            <span className="text-primary text-2xl px-1 dark:text-primaryDark ">
+              &#9825;
+            </span>
+            by&nbsp;
             <Link
               href="https://www.linkedin.com/in/ruturaj-shinde-2861b2138/"
               target="_blank"
@@ -20,8 +22,13 @@ const Footer = () => {
               Ruturaj Shinde
             </Link>
           </div>
-          
-          <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new " target="_blank">ruturajrs20@gmail.com</a>
+
+          <a
+            href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=new "
+            target="_blank"
+          >
+            ruturajrs20@gmail.com
+          </a>
         </Layout>
       </footer>
     </div>
@@ -29,5 +36,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-

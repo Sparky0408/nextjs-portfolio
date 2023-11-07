@@ -1,6 +1,4 @@
-'use client';
 import React, { useRef } from "react";
-
 
 import { motion, useScroll } from "framer-motion";
 import LiIcons from "./LiIcons";
@@ -19,7 +17,9 @@ const Details = ({ type, time, place, info }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className=" capitalize font-bold text-2xl sm:text-xl xs:text-lg ">{type}&nbsp;</h3>
+        <h3 className=" capitalize font-bold text-2xl sm:text-xl xs:text-lg ">
+          {type}&nbsp;
+        </h3>
         <span className="capitalize font-medium text-dark/75  dark:text-light/75 xs:text-sm">
           {time} | {place}
         </span>
@@ -39,7 +39,9 @@ const Education = () => {
 
   return (
     <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">Education</h2>
+      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
+        Education
+      </h2>
 
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
         <motion.div
@@ -76,5 +78,3 @@ const Education = () => {
 };
 
 export default Education;
-
-

@@ -6,10 +6,9 @@ import React, { useEffect, useRef } from "react";
 import profilePic from "../../public/images/profile/profile-pic-2.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
-import Experiance from "@/components/Experience";
+
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
-import dynamic from "next/dynamic";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -40,7 +39,7 @@ const about = () => {
   return (
     <div>
       <>
-        <suppressHydrationWarning />
+        
         <Head>
           <title>
             Ruturaj Shinde | About Page

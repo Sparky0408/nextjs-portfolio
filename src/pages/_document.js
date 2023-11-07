@@ -3,8 +3,8 @@ import Script from "next/script";
 
 export default function Document() {
   return (
-    <Html lang="en" suppressHydrationWarning={true}>
-      <suppressHydrationWarning />
+    <Html lang="en">
+      
       <Head />
       <body>
         <Script id="theme-switcher" strategy="beforeInteractive">
