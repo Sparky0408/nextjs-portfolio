@@ -99,7 +99,7 @@ const FeaturedProject2 = ({ type, title, img, link, github }) => {
         <a
           href={link}
           target="_blank"
-          className="hover:underline  underline-offset-2"
+          className="hover:underline underline-offset-2"
         >
           <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">
             {title}
@@ -158,7 +158,7 @@ const projects = () => {
               />
             </div>
 
-            <div className=" col-span-6  sm:col-span-12 ">
+            <div className=" col-span-6 sm:col-span-12 ">
               <FeaturedProject2
                 title="Portfolio"
                 img={portfolioimg}
@@ -168,7 +168,8 @@ const projects = () => {
                 type="Site"
               />
             </div>
-            <div className=" col-span-6  sm:col-span-12">
+
+            <div className=" col-span-6 sm:col-span-12">
               <FeaturedProject2
                 title="Todo-List"
                 img={medicareimg}
@@ -178,7 +179,7 @@ const projects = () => {
                 type="Application"
               />
             </div>
-            <div className=" col-span-12  "></div>
+
             <div className=" col-span-6  "></div>
           </div>
         </Layout>
