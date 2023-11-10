@@ -162,8 +162,8 @@ const projects = () => {
               <FeaturedProject2
                 title="Portfolio"
                 img={portfolioimg}
-                link="github.com/Sparky0408/Medicare-Track"
-                github="github.com/Sparky0408/Medicare-Track
+                link="https://ruturaj-portfolio.netlify.app/"
+                github="https://github.com/Sparky0408/nextjs-portfolio.git
    "
                 type="Site"
               />
