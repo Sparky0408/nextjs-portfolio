@@ -173,8 +173,8 @@ const projects = () => {
               <FeaturedProject2
                 title="Todo-List"
                 img={medicareimg}
-                link="github.com/Sparky0408/Medicare-Track"
-                github="github.com/Sparky0408/Medicare-Track
+                link=""
+                github="
 "
                 type="Application"
               />
