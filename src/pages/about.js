@@ -39,7 +39,6 @@ const about = () => {
   return (
     <div>
       <>
-        
         <Head>
           <title>
             Ruturaj Shinde | About Page
@@ -54,7 +53,7 @@ const about = () => {
             />
             <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
               <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
-                <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+                <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 ">
                   About Me
                 </h2>
                 <p className="font-medium">
