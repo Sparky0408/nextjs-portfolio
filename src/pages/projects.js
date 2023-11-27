@@ -7,6 +7,7 @@ import Link from "next/link";
 import React from "react";
 import medicareimg from "../../public/images/projects/medicare.png";
 import portfolioimg from "../../public/images/projects/portfolio.png";
+import todolist from "../../public/images/projects/todolist.png";
 
 const FeaturedProject = ({ type, title, summary, img, link, githublink }) => {
   return (
@@ -172,9 +173,9 @@ const projects = () => {
             <div className=" col-span-6 sm:col-span-12">
               <FeaturedProject2
                 title="Todo-List"
-                img={medicareimg}
-                link=""
-                github="
+                img={todolist}
+                link="https://todolist-react-ruturaj.netlify.app/"
+                github="https://github.com/Sparky0408/todolist-react
 "
                 type="Application"
               />
