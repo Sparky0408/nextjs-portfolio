@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import medicareimg from "../../public/images/projects/medicare.png";
+import aimain from "../../public/images/projects/ai-main.png";
 import portfolioimg from "../../public/images/projects/portfolio.png";
 import todolist from "../../public/images/projects/todolist.png";
 
@@ -181,7 +182,20 @@ const projects = () => {
               />
             </div>
 
-            <div className=" col-span-6  "></div>
+            <div className=" col-span-12  ">
+              <FeaturedProject
+                title="AI Article Summarizer App🚀 "
+                img={aimain}
+                summary="Built with Vite, React, and Tailwind CSS, this project harnesses the power of the Rapid API to provide an innovative 
+                AI-driven article summarization experience. By simply inputting the URL of any webpage, the app utilizes advanced natural 
+                language processing to generate concise and coherent summaries. Explore the future of content consumption with the AI Article 
+                Summarizer App, making information more accessible and digestible."
+                link="https://ai-article-summarizer-ruturaj.netlify.app/"
+                githublink="https://github.com/Sparky0408/AI-Article-Summarizer-App
+           "
+                type="Article Summarization Tool"
+              />
+            </div>
           </div>
         </Layout>
       </main>
