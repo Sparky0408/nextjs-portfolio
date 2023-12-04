@@ -144,19 +144,16 @@ const projects = () => {
           <div className=" grid grid-cols-12 gap-24 gap-y-32  xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className=" col-span-12  ">
               <FeaturedProject
-                title="Medicare-Track"
-                img={medicareimg}
-                summary=" The 'Medicare-Track' project aims to simplify medical storage systems by developing an 
-           innovative and efficient storage solution leads the unique needs of healthcare facilities. In 
-           today's rapidly evolving healthcare world , the demand for effective storage and organization 
-           of medical supplies, equipment, and medications has never been more crucial. The project's 
-           core focus is to create a storage system that maximizes space utilization, enhances 
-           accessibility, ensures regulatory compliance, and promotes efficient inventory management 
-           within hospitals, clinics, and healthcare institutions."
-                link="https://medicare-track.netlify.app/"
-                githublink="https://github.com/Sparky0408/Medicare-Track.git
+                title="AI Article Summarizer App🚀 "
+                img={aimain}
+                summary="Built with Vite, React, and Tailwind CSS, this project harnesses the power of the Rapid API to provide an innovative 
+                AI-driven article summarization experience. By simply inputting the URL of any webpage, the app utilizes advanced natural 
+                language processing to generate concise and coherent summaries. Explore the future of content consumption with the AI Article 
+                Summarizer App, making information more accessible and digestible."
+                link="https://ai-article-summarizer-ruturaj.netlify.app/"
+                githublink="https://github.com/Sparky0408/AI-Article-Summarizer-App
            "
-                type="CDAC Project"
+                type="Article Summarization Tool"
               />
             </div>
 
@@ -184,16 +181,19 @@ const projects = () => {
 
             <div className=" col-span-12  ">
               <FeaturedProject
-                title="AI Article Summarizer App🚀 "
-                img={aimain}
-                summary="Built with Vite, React, and Tailwind CSS, this project harnesses the power of the Rapid API to provide an innovative 
-                AI-driven article summarization experience. By simply inputting the URL of any webpage, the app utilizes advanced natural 
-                language processing to generate concise and coherent summaries. Explore the future of content consumption with the AI Article 
-                Summarizer App, making information more accessible and digestible."
-                link="https://ai-article-summarizer-ruturaj.netlify.app/"
-                githublink="https://github.com/Sparky0408/AI-Article-Summarizer-App
+                title="Medicare-Track"
+                img={medicareimg}
+                summary=" The 'Medicare-Track' project aims to simplify medical storage systems by developing an 
+           innovative and efficient storage solution leads the unique needs of healthcare facilities. In 
+           today's rapidly evolving healthcare world , the demand for effective storage and organization 
+           of medical supplies, equipment, and medications has never been more crucial. The project's 
+           core focus is to create a storage system that maximizes space utilization, enhances 
+           accessibility, ensures regulatory compliance, and promotes efficient inventory management 
+           within hospitals, clinics, and healthcare institutions."
+                link="https://medicare-track.netlify.app/"
+                githublink="https://github.com/Sparky0408/Medicare-Track.git
            "
-                type="Article Summarization Tool"
+                type="CDAC Project"
               />
             </div>
           </div>
