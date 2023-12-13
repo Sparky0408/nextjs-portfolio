@@ -9,6 +9,8 @@ import medicareimg from "../../public/images/projects/medicare.png";
 import aimain from "../../public/images/projects/ai-main.png";
 import portfolioimg from "../../public/images/projects/portfolio.png";
 import todolist from "../../public/images/projects/todolist.png";
+import jobapp from "../../public/images/projects/jobapp.png";
+
 
 const FeaturedProject = ({ type, title, summary, img, link, githublink }) => {
   return (
@@ -154,6 +156,20 @@ const projects = () => {
                 githublink="https://github.com/Sparky0408/AI-Article-Summarizer-App
            "
                 type="Article Summarization Tool"
+              />
+            </div>
+
+
+            <div className=" col-span-12  ">
+              <FeaturedProject
+                title="JobExplorer Plus App🚀 "
+                img={jobapp}
+                summary="Crafted with React Native using the Expo framework, powered by Rapid API for dynamic job listings. Enjoy a user-friendly
+                 UI for seamless job exploration and application. Your career journey, simplified."
+                link="https://www.amazon.com/dp/B0CPXCYDZQ/ref=apps_sf_sta"
+                githublink="https://gitlab.com/RuturajShinde/react-native-job-app
+           "
+                type="React Native Application"
               />
             </div>
 
