@@ -60,6 +60,16 @@ const Experience = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+
+
+        <Details
+            position="Web Development Intern"
+            company="UNIFIED MENTOR"
+            companyLink="https://www.unifiedmentor.com/"
+            time="2024"
+            address="Remote"
+            work="As a Web Development Intern, your role involves actively participating in the design, development, and maintenance of web applications. You will contribute to front-end development using HTML, CSS, and JavaScript, collaborate with cross-functional teams, and gain hands-on experience in writing clean and efficient code. Troubleshooting, testing, and optimizing web applications will be key aspects of your responsibilities, providing you with valuable exposure to real-world projects and the opportunity for professional growth. This internship is designed for individuals eager to learn and contribute to the dynamic field of web development."
+          />
           <Details
             position="Student"
             company="CDAC Acts"
