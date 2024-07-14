@@ -61,7 +61,18 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
 
-
+        <Details
+            position="Python Developer"
+            company="eClerx"
+            companyLink="https://eclerx.com/"
+            time="2024"
+            address="Mumbai"
+            work="Developed and maintained robust web scraping scripts using libraries such as BeautifulSoup and Scrapy to extract and process data from various websites.
+            Designed and deployed scalable Flask services for web applications, enabling efficient data retrieval and user interaction.
+            Managed and optimized SQL and NoSQL databases to ensure data integrity, enhance query performance, and support application requirements.
+            Collaborated with cross-functional teams to gather requirements, troubleshoot issues, and implement solutions that align with business objectives.
+            Implemented data validation and error handling mechanisms to improve the reliability and accuracy of data extraction and processing tasks."
+          />
         <Details
             position="Web Development Intern"
             company="UNIFIED MENTOR"
