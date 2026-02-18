@@ -38,23 +38,24 @@ const Skills = () => {
         >
           <motion.div
             className="flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6
-             shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light p-8
-             lg:p-6 md:p-4 xs:text-xs xs:p-2"
+            shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light p-8
+            lg:p-6 md:p-4 xs:text-xs xs:p-2"
             whileHover={{ scale: 1.05 }}
           >
-            Java
+            Python
           </motion.div>
-          <Skill name="CSS" x="-25vw" y="2vw" />
-          <Skill name="HTML" x="-5vw" y="-10vw" />
-          <Skill name="Git" x="20vw" y="6vw" />
-          <Skill name="C++" x="0vw" y="12vw" />
-          <Skill name="C" x="-20vw" y="-15vw" />
-          <Skill name="JavaScript" x="15vw" y="-12vw" />
-          <Skill name="ReactJs" x="32vw" y="-5vw" />
-          <Skill name=".NET" x="0vw" y="-20vw" />
-          <Skill name="SpringBoot" x="13vw" y="-5vw" />
-          <Skill name="TailwindCSS" x="-25vw" y="18vw" />
-          <Skill name="NextJs" x="18vw" y="18vw" />
+          <Skill name="FastAPI" x="-25vw" y="2vw" />
+          <Skill name="Flask" x="-5vw" y="-10vw" />
+          <Skill name="REST APIs" x="20vw" y="6vw" />
+          <Skill name="SQL" x="0vw" y="12vw" />
+          <Skill name="MySQL" x="-20vw" y="-15vw" />
+          <Skill name="MS SQL Server" x="15vw" y="-12vw" />
+          <Skill name="Selenium" x="32vw" y="-5vw" />
+          <Skill name="Playwright" x="0vw" y="-20vw" />
+          <Skill name="Docker" x="13vw" y="-5vw" />
+          <Skill name="Git" x="-25vw" y="18vw" />
+          <Skill name="Cloud APIs" x="18vw" y="18vw" />
+
         </div>
       </>
     </div>
