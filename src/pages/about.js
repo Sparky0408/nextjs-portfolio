@@ -58,25 +58,28 @@ const about = () => {
                 </h2>
                 <p className="font-medium">
                   Greetings! I'm Ruturaj Shinde, a Data Engineer and Python Automation Engineer
-                  with hands-on experience in building scalable automation and data processing
-                  solutions. I specialize in Python-based web automation, API integrations, and
-                  cloud-driven document workflows. My work focuses on transforming complex,
-                  manual processes into reliable, automated pipelines.
+                  with hands-on experience in building scalable agentic automation and data
+                  processing solutions. I specialize in Python-based web automation, API
+                  integrations, and cloud-driven document workflows. My work focuses on
+                  transforming complex, manual processes into reliable, automated and
+                  agent-oriented pipelines.
                 </p>
                 <p className="my-4 font-medium">
                   I have strong experience in extracting and processing structured and
-                  unstructured data using tools like Selenium and Playwright, along with
-                  backend development using Flask and FastAPI. I regularly work with relational
-                  databases such as MySQL and MS SQL Server to design efficient data storage and
-                  retrieval solutions.
+                  unstructured data using tools like Selenium and Playwright, along with backend
+                  development using Flask and FastAPI. I also work with agentic architectures
+                  where services communicate through well-defined interfaces, including MCP
+                  (Model Context Protocol) servers, to enable modular, extensible automation
+                  workflows. I regularly use relational databases such as MySQL and MS SQL
+                  Server for efficient data storage and retrieval.
                 </p>
                 <p className="font-medium">
                   My technical interests extend to cloud-based automation and document
                   processing, including OCR, PDF automation, and language translation using
-                  Google Cloud and Azure services. I enjoy working in collaborative environments
-                  where I can solve real-world problems through clean architecture, efficient
-                  APIs, and scalable data pipelines, while continuously improving my backend
-                  and cloud engineering skills.
+                  Google Cloud and Azure services. I enjoy building clean, scalable systems that
+                  combine APIs, data pipelines, and agentic components to solve real-world
+                  problems, while continuously improving my backend, cloud, and distributed
+                  system design skills.
                 </p>
               </div>
 
