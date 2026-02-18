@@ -438,12 +438,12 @@ export const MoonIcon = ({ className, ...rest }) => (
 //   </svg>
 // );
 
-export const CircularText = ({ text, className, ...rest }) => (
+export const CircularText = ({ className }) => (
   <svg
     viewBox="0 0 300 300"
-    width="300"
-    height="300"
-    {...rest}
+    width="100%"
+    height="100%"
+    className={className}
   >
     <defs>
       <path
@@ -458,11 +458,10 @@ export const CircularText = ({ text, className, ...rest }) => (
     </defs>
 
     <text
-      fill="black"
-      fontSize="16"
+      fontSize="22"
       fontWeight="600"
       letterSpacing="1"
-      className={className}
+      fill="currentColor"
     >
       <textPath href="#circlePath" startOffset="50%" textAnchor="middle">
         Data Engineer · Python Automation Engineer · Agentic Systems
@@ -470,7 +469,6 @@ export const CircularText = ({ text, className, ...rest }) => (
     </text>
   </svg>
 );
-
 
 export const LinkArrow = ({ className, ...rest }) => (
   <svg
