@@ -57,29 +57,26 @@ const about = () => {
                   About Me
                 </h2>
                 <p className="font-medium">
-                  Greetings! I'm Ruturaj Shinde, a recent CDAC graduate, and a
-                  tech enthusiast with a love for problem-solving and
-                  innovation. My journey in the world of technology has equipped
-                  me with an array of skills, including proficiency in
-                  programming languages like Java, C, C++, .NET, and JavaScript.
-                  I have a knack for exploring the inner workings of databases,
-                  making me adept in database management with MySQL and MS SQL.
+                  Greetings! I'm Ruturaj Shinde, a Data Engineer and Python Automation Engineer
+                  with hands-on experience in building scalable automation and data processing
+                  solutions. I specialize in Python-based web automation, API integrations, and
+                  cloud-driven document workflows. My work focuses on transforming complex,
+                  manual processes into reliable, automated pipelines.
                 </p>
-                <p className=" my-4 font-medium ">
-                  My fascination with software development extends to building
-                  robust, user-friendly applications. I thrive in dynamic team
-                  environments and take pride in utilizing my programming
-                  prowess to achieve organizational objectives. In my quest for
-                  holistic expertise,
+                <p className="my-4 font-medium">
+                  I have strong experience in extracting and processing structured and
+                  unstructured data using tools like Selenium and Playwright, along with
+                  backend development using Flask and FastAPI. I regularly work with relational
+                  databases such as MySQL and MS SQL Server to design efficient data storage and
+                  retrieval solutions.
                 </p>
                 <p className="font-medium">
-                  I've also delved into the intricacies of full-stack
-                  development. From crafting engaging frontend experiences with
-                  React.js to engineering resilient backend solutions with
-                  Spring Boot, JDBC, Node.js, and Express, I am primed to tackle
-                  the multifaceted challenges of the modern tech landscape. My
-                  mission is to continue pushing the boundaries of technology
-                  while making a tangible impact in the digital realm.
+                  My technical interests extend to cloud-based automation and document
+                  processing, including OCR, PDF automation, and language translation using
+                  Google Cloud and Azure services. I enjoy working in collaborative environments
+                  where I can solve real-world problems through clean architecture, efficient
+                  APIs, and scalable data pipelines, while continuously improving my backend
+                  and cloud engineering skills.
                 </p>
               </div>
 
@@ -112,10 +109,10 @@ const about = () => {
                 </div>
                 <div className="flex flex-col items-end justify-center xl:items-center">
                   <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                    <AnimatedNumbers value={6} />
+                    <AnimatedNumbers value={2} />
                   </span>
                   <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                    Months Experience
+                    Years of Experience
                   </h2>
                 </div>
               </div>

@@ -35,18 +35,11 @@ export default function Home() {
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text=6xl md:!text-5xl sm:!text-3xl  "
               />
               <p className="my-4 text-base font-medium  md:text-sm sm:text-xs">
-                As a recent CDAC graduate, I've honed my skills in various
-                programming languages, such as Java, C, C++, .NET, and
-                JavaScript. I've also gained proficiency in database management
-                with MySQL and MS SQL. With a strong foundation in software
-                development, I'm eager to apply my knowledge and passion for
-                programming to make meaningful contributions to dynamic teams
-                and help achieve organizational goals. Furthermore, I've
-                ventured into full-stack development, mastering technologies
-                like React.js for the frontend, Spring Boot ,JDBC and Express
-                for the backend. This has transformed me into a versatile
-                full-stack developer, well-equipped to tackle the challenges of
-                modern application development.
+                Data Engineer and Python Automation Engineer with 2+ years of experience building scalable
+                automation and data processing solutions. Strong expertise in Python-based web automation,
+                REST API integration, document processing (PDF, OCR), and cloud-based translation workflows.
+                Proven ability to design end-to-end pipelines that reduce manual effort, improve data accuracy,
+                and support compliance-driven enterprise applications.
               </p>
 
               <div className="flex items-center self-start mt-2  lg:self-center">
